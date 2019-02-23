@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from nicolas.contants import GITHUB_API
+from hashtags.contants import GITHUB_API
 
 
 class Github:

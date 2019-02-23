@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 from tests.helper import ICON, attach_rank
-from nicolas.reddit import Reddit
+from hashtags.reddit import Reddit
 from googletrans import Translator
 
 

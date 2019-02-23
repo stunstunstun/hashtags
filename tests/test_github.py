@@ -1,6 +1,6 @@
 import unittest
 from tests.helper import ICON, attach_rank
-from nicolas.github import Github
+from hashtags.github import Github
 
 
 class TestGithub(unittest.TestCase):

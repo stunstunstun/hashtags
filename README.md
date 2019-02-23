@@ -1,4 +1,4 @@
-# nicolas
+# hashtags
 
 ## CLI
 
@@ -28,11 +28,11 @@ $ python -m unittest
 ### Build
 
 ```
-$ docker build -t nicolas .
+$ docker build -t hashtags-dev .
 ```
 
 ### Test
 
 ```
-$ docker run nicolas
+$ docker run hashtags-dev
 ```

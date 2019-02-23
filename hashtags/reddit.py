@@ -1,10 +1,11 @@
 import requests
-from nicolas.compat import json
-from nicolas.contants import REDDIT_API
+from hashtags.compat import json
+from hashtags.contants import REDDIT_API
 
 
 class Reddit:
     """
+    For Reddit
     """
     def __init__(self):
         self.headers = {'User-Agent': 'super happy flair bot by /u/spladug'}
@@ -37,5 +38,4 @@ class RedditResponse:
         return self.__unicode__()
 
     def __unicode__(self):
-        return u'Response(code={code}, message={message})'.format(
-            code=self.code, message=self.message, text=self.text, src=self.source)
+        return u'Response(code={code}, message={message})'.format(code=self.code, message=self.message)

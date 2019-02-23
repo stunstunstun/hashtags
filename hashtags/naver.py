@@ -1,6 +1,6 @@
 import requests
-from nicolas.compat import json
-from nicolas.contants import NAVER_SEARCH_BOOK_API, DEFAULT_CONTENT_TYPE
+from hashtags.compat import json
+from hashtags.contants import NAVER_SEARCH_BOOK_API, DEFAULT_CONTENT_TYPE
 
 client_id = None
 client_secret = None

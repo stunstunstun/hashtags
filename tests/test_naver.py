@@ -4,8 +4,8 @@ import unittest
 import re
 import random
 from tests.helper import ICON, attach_rank
-from nicolas import naver
-from nicolas import PUBLISHERS
+from hashtags import naver
+from hashtags import PUBLISHERS
 
 
 class TestBook(unittest.TestCase):
