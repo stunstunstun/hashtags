@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
 import requests
 from bs4 import BeautifulSoup
-from hashtags.contants import GITHUB_API
+from hashtags.constants import GITHUB_API
 
 
 class Github:

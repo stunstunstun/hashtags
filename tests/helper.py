@@ -1,4 +1,5 @@
-
+"""Icons for category
+"""
 ICON = {
     'CHECK': '✔️',
     'SMILE': '😋',

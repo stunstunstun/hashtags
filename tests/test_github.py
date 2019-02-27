@@ -1,4 +1,6 @@
+# -*- coding: utf-8 -*-
 import unittest
+
 from tests.helper import ICON, attach_rank
 from hashtags.github import Github
 

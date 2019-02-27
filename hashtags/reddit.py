@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
 import requests
 from hashtags.compat import json
-from hashtags.contants import REDDIT_API
+from hashtags.constants import REDDIT_API
 
 
 class Reddit:

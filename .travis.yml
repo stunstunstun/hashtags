@@ -1,10 +1,12 @@
+# https://travis-ci.com/stunstunstun/hashtags
 language: python
 python:
-- 3.7
+  - "2.7"
+  - "3.6"
 install:
-- pip install tox-travis tox-pipenv
+  - pip install tox-travis tox-pipenv
 script:
-- tox
+  - tox
 env:
   global:
   - secure: e0e2geSJ7CSgXX3HAWkGSmeEizu2yh67kNGFNNYMVPlsN60GvU2Ha0M4mibH4Np0pUFxmpXFZGnAE8HaHdFN9yJzRnIM1GjmFr6FsFzUWk8321yDI7yQTvUD7+08YeB6vb5mFhzLwpiz8lO8S+P56MbUnb1Csg4us7cWtYGHlY2K8M6WupGkrzZcBJ+OKZ6wCicDYNoioQeD8I8dFpbx/r9fo1Nps7MOZwLV+3/sDUgxD3pnX5Ik5yjkRqsEG85QTGTVg+ztgDXUHItlTt8PXq6HzD8z7bcH7AN/i9QjgddsmSFg391qsNo1ZzuAhfW1CKeXreItUVBPBQch1Gi+VKWOEL5MjasRMVJ0TZTZccmyIe1aRsyO3lPU8B6v4bIL1Vygx9yV+4D4+vfChT9/mMLnlIeiNyq6OQF8XzQVNEQGxgfmvhcDmhbMiA1E+QmCP2ADVWC0KHNjZoqPSKfgHRpiPJWFTBDL2NSE7VuNicE5lpkc2s/FoROGUEPNkf6gqqSmU5b2SLXitLMb4LUTCYnSr36eVNyHC/CM1xIO3ozEbi9dJo8zJO1HYeTPq2MdneCGHlR3jx5zaSedBXV/gnK/C/bXTIhJWCSRJuSaggqCbGQ+0JAJeyK7ffUXlXXkPPtQD77Whw7J7CTgglKJN837b5cNvDpjyj7huaiJ+6k=

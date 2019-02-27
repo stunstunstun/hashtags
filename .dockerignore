@@ -1,9 +1,8 @@
 env/
 venv/
 build/
+.venv/
 dist/
 *.egg-info/
 *.egg
-test.sh
-tox.sh
 */*/temp*
